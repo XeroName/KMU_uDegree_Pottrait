@@ -1,5 +1,5 @@
 // menuButtonHandler.cs
-// 2025-11-25 by XERONAME
+// 2025-11-26 by XERONAME
 // i did not use ChatGPT on this code, btw.
 
 using UnityEngine;
@@ -10,6 +10,7 @@ using UnityEngine.UI; // required to use button
 public class menuButtonHandler : MonoBehaviour
 {
     [SerializeField] private GameObject[] childButtons;
+    [SerializeField] private AnimationCurve animCrv = new AnimationCurve(new Keyframe(0.0f, 0.0f), new Keyframe(1.0f, 1.0f));
     [SerializeField] private float transitionSpeed = 2.0f;
     [SerializeField] private float buttonSpacingOffset = 32.0f;
 
@@ -21,7 +22,6 @@ public class menuButtonHandler : MonoBehaviour
     public static float getTransitionProcess() { return transitionProcess; }
 
     private void menuBtnClicked() {
-        Debug.Log("clicked");
         collapseMenuBar = (!collapseMenuBar);
         singleTransitionProcess();
     }
@@ -63,7 +63,7 @@ public class menuButtonHandler : MonoBehaviour
                 _btnObj.SetActive(true);
 
                 // set position of target child-button-object
-                float _btnOfsY = -(buttonSpacingOffset *(_cnt +1) *transitionProcess);
+                float _btnOfsY = -(buttonSpacingOffset *(_cnt +1) *animCrv.Evaluate(transitionProcess));
                 _btnObj.transform.position = new Vector3(
                     gameObject.transform.position.x,
                     (gameObject.transform.position.y +_btnOfsY),

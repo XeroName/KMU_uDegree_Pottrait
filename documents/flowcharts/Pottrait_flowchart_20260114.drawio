@@ -1,0 +1,336 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="29.3.1">
+  <diagram name="페이지-1" id="2kpf0Uhp3o4RaKlFXIHm">
+    <mxGraphModel dx="1042" dy="1780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-109" parent="1" style="swimlane;startSize=0;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="2840" width="680" x="40" as="geometry">
+            <mxRectangle height="40" width="50" x="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-66" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-1" parent="LWloWiiUlgF6h3ehjiMF-109" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeWidth=2;" value="프로그램 시작" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-67" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-2" parent="LWloWiiUlgF6h3ehjiMF-109" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="타이틀 화면 표시" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-110" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-111" connectable="0" parent="LWloWiiUlgF6h3ehjiMF-110" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="참" vertex="1">
+          <mxGeometry relative="1" x="-0.15" as="geometry">
+            <mxPoint x="20" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-3" parent="LWloWiiUlgF6h3ehjiMF-109" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="시작 버튼을 눌렀는가?" vertex="1">
+          <mxGeometry height="80" width="160" x="260" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-68" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-8" parent="LWloWiiUlgF6h3ehjiMF-109" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="&lt;div&gt;체력 초기화,&lt;/div&gt;&lt;div&gt;품질 초기화,&lt;/div&gt;&lt;div&gt;진행도 초기화,&lt;/div&gt;&lt;div&gt;회전 속도 초기화&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="260" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-69" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-11" parent="LWloWiiUlgF6h3ehjiMF-109" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="&#39;도자기 형성&#39;&lt;br&gt;단계 진입" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-70" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-13" parent="LWloWiiUlgF6h3ehjiMF-109" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="마우스 클릭 감지" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-71" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-14" parent="LWloWiiUlgF6h3ehjiMF-109" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="&lt;div&gt;회전 속도 증가/감소,&lt;/div&gt;&lt;div&gt;회전 속도에 따라 체력 및 품질 조정&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="200" x="240" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-112" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-113" connectable="0" parent="LWloWiiUlgF6h3ehjiMF-112" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="참" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-15" parent="LWloWiiUlgF6h3ehjiMF-109" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="체력이 0 이하인가?" vertex="1">
+          <mxGeometry height="80" width="160" x="260" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-114" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-115" connectable="0" parent="LWloWiiUlgF6h3ehjiMF-114" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="참" vertex="1">
+          <mxGeometry relative="1" x="0.05" as="geometry">
+            <mxPoint x="20" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-16" parent="LWloWiiUlgF6h3ehjiMF-109" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="진행도가 가득 찼는가?" vertex="1">
+          <mxGeometry height="80" width="160" x="260" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-22" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-15" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="760" />
+              <mxPoint x="520" y="180" />
+            </Array>
+            <mxPoint x="540" y="680" as="sourcePoint" />
+            <mxPoint x="550" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-23" connectable="0" parent="LWloWiiUlgF6h3ehjiMF-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="거짓" vertex="1">
+          <mxGeometry relative="1" x="-0.9051" as="geometry">
+            <mxPoint x="-27" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-24" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-16" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="880" />
+              <mxPoint x="160" y="580" />
+            </Array>
+            <mxPoint x="350" y="740" as="sourcePoint" />
+            <mxPoint x="220" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-25" connectable="0" parent="LWloWiiUlgF6h3ehjiMF-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="거짓" vertex="1">
+          <mxGeometry relative="1" x="-0.8264" y="-4" as="geometry">
+            <mxPoint x="36" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-72" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-27" parent="LWloWiiUlgF6h3ehjiMF-109" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="&#39;도자기 굽기&#39;&lt;br&gt;단계 진입" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-74" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-28" parent="LWloWiiUlgF6h3ehjiMF-109" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="마우스 클릭 감지" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-75" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-29" parent="LWloWiiUlgF6h3ehjiMF-109" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="&lt;div&gt;가마 온도 증가/감소,&lt;/div&gt;&lt;div&gt;가마 온도에 따라 체력 및 품질 조정&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="200" x="240" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-117" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-118" connectable="0" parent="LWloWiiUlgF6h3ehjiMF-117" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="참" vertex="1">
+          <mxGeometry relative="1" x="0.05" as="geometry">
+            <mxPoint x="20" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-30" parent="LWloWiiUlgF6h3ehjiMF-109" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="체력이 0 이하인가?" vertex="1">
+          <mxGeometry height="80" width="160" x="260" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-119" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-44" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-120" connectable="0" parent="LWloWiiUlgF6h3ehjiMF-119" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;참&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.05" as="geometry">
+            <mxPoint x="20" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-31" parent="LWloWiiUlgF6h3ehjiMF-109" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="진행도가 가득 찼는가?" vertex="1">
+          <mxGeometry height="80" width="160" x="260" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-39" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-31" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="1440" />
+              <mxPoint x="160" y="1140" />
+            </Array>
+            <mxPoint x="350" y="1300" as="sourcePoint" />
+            <mxPoint x="220" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-40" connectable="0" parent="LWloWiiUlgF6h3ehjiMF-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="거짓" vertex="1">
+          <mxGeometry relative="1" x="-0.8264" y="-4" as="geometry">
+            <mxPoint x="36" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-41" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-30" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="1320" />
+            </Array>
+            <mxPoint x="530" y="1355" as="sourcePoint" />
+            <mxPoint x="520" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-42" connectable="0" parent="LWloWiiUlgF6h3ehjiMF-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="거짓" vertex="1">
+          <mxGeometry relative="1" x="-0.9207" as="geometry">
+            <mxPoint x="-13" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-65" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-44" parent="LWloWiiUlgF6h3ehjiMF-109" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="&#39;도자기 유약칠&#39;&lt;br&gt;단계 진입" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-73" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-45" parent="LWloWiiUlgF6h3ehjiMF-109" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="&lt;div&gt;진행도 초기화,&lt;/div&gt;&lt;div&gt;가마 온도 초기화&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="260" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-64" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-58" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-49" parent="LWloWiiUlgF6h3ehjiMF-109" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="&lt;div&gt;진행도 초기화&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="260" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-63" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-60" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-58" parent="LWloWiiUlgF6h3ehjiMF-109" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="마우스 버튼 상태&lt;br&gt;및 위치 감지" vertex="1">
+          <mxGeometry height="40" width="160" x="260" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-77" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-76" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-78" connectable="0" parent="LWloWiiUlgF6h3ehjiMF-77" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="참" vertex="1">
+          <mxGeometry relative="1" x="-0.15" y="3" as="geometry">
+            <mxPoint x="17" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-60" parent="LWloWiiUlgF6h3ehjiMF-109" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="마우스가 도자기를&lt;br&gt;클릭했는가?" vertex="1">
+          <mxGeometry height="80" width="160" x="260" y="1760" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-83" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-82" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-76" parent="LWloWiiUlgF6h3ehjiMF-109" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="클릭한 면적 유약칠,&lt;br&gt;진행도 증가" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="1880" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-79" parent="LWloWiiUlgF6h3ehjiMF-109" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="드래그에 따라&lt;br&gt;도자기 회전" vertex="1">
+          <mxGeometry height="40" width="120" x="480" y="1880" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-80" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-60" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-79" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="1800" />
+            </Array>
+            <mxPoint x="515" y="1794" as="sourcePoint" />
+            <mxPoint x="565" y="1744" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-81" connectable="0" parent="LWloWiiUlgF6h3ehjiMF-80" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="거짓" vertex="1">
+          <mxGeometry relative="1" x="-0.63" y="-4" as="geometry">
+            <mxPoint x="-27" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-87" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-86" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-90" connectable="0" parent="LWloWiiUlgF6h3ehjiMF-87" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="참" vertex="1">
+          <mxGeometry relative="1" x="0.05" y="1" as="geometry">
+            <mxPoint x="19" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-82" parent="LWloWiiUlgF6h3ehjiMF-109" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="진행도가 90% 이상인가?" vertex="1">
+          <mxGeometry height="80" width="160" x="260" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-85" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-79" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="1960" />
+            </Array>
+            <mxPoint x="350" y="1870" as="sourcePoint" />
+            <mxPoint x="340" y="1960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-94" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-91" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-86" parent="LWloWiiUlgF6h3ehjiMF-109" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="&lt;div&gt;다음 단계 이동&lt;/div&gt;&lt;div&gt;버튼 표시&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="260" y="2120" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-88" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-82" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-58" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="2040" />
+              <mxPoint x="160" y="1700" />
+            </Array>
+            <mxPoint x="210" y="1950" as="sourcePoint" />
+            <mxPoint x="180" y="1730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-89" connectable="0" parent="LWloWiiUlgF6h3ehjiMF-88" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="거짓" vertex="1">
+          <mxGeometry relative="1" x="-0.8073" as="geometry">
+            <mxPoint x="43" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-95" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-92" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-96" connectable="0" parent="LWloWiiUlgF6h3ehjiMF-95" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="참" vertex="1">
+          <mxGeometry relative="1" x="-0.35" as="geometry">
+            <mxPoint x="20" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-91" parent="LWloWiiUlgF6h3ehjiMF-109" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="다음 단계 버튼을&lt;br&gt;눌렀는가?" vertex="1">
+          <mxGeometry height="80" width="160" x="260" y="2200" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-105" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-97" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-92" parent="LWloWiiUlgF6h3ehjiMF-109" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="&#39;완성 및 감상&#39;&lt;br&gt;단계 진입" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="2320" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-106" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-104" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-97" parent="LWloWiiUlgF6h3ehjiMF-109" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="점수 출력,&lt;br&gt;설명 문구 출력" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="2400" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-102" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-101" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-103" connectable="0" parent="LWloWiiUlgF6h3ehjiMF-102" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="참" vertex="1">
+          <mxGeometry relative="1" y="-2" as="geometry">
+            <mxPoint x="22" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-99" parent="LWloWiiUlgF6h3ehjiMF-109" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="마우스를 클릭했는가?" vertex="1">
+          <mxGeometry height="80" width="160" x="260" y="2560" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-101" parent="LWloWiiUlgF6h3ehjiMF-109" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="마우스 드래그에 따라 카메라 회전" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="2680" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-107" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-99" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-104" parent="LWloWiiUlgF6h3ehjiMF-109" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="마우스 버튼 상태&lt;br&gt;및 위치 감지" vertex="1">
+          <mxGeometry height="40" width="160" x="260" y="2480" as="geometry" />
+        </mxCell>
+        <mxCell id="LWloWiiUlgF6h3ehjiMF-108" edge="1" parent="LWloWiiUlgF6h3ehjiMF-109" source="LWloWiiUlgF6h3ehjiMF-101" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="LWloWiiUlgF6h3ehjiMF-104" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="2760" />
+              <mxPoint x="520" y="2760" />
+              <mxPoint x="520" y="2500" />
+            </Array>
+            <mxPoint x="515" y="2740" as="sourcePoint" />
+            <mxPoint x="565" y="2690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

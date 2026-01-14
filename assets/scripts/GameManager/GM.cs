@@ -18,7 +18,12 @@ using System.Collections; // required for coroutine
 public class GM : MonoBehaviour
 {
     private string sceneName_loadingScreen = "LoadingScreen"; // string-name of LoadingScreen scene
+    private string sceneName_home = "1_MainMenu"; // string-name of home scene
     private static float duration_loadingScreen = 3.0f;
+
+    // pottery-making properties
+    public static float pot_health; // global health of pottery
+    public static float pot_quality; // global quality of pottery
 
 
     // private instance of GM
@@ -40,6 +45,19 @@ public class GM : MonoBehaviour
             }
             return inst_private;
         }
+    }
+
+
+    // class constructor
+    private GM() {
+        initPotValues();
+    }
+
+
+    // initialize the pottery-making properties
+    private void initPotValues() {
+        pot_health = 100.0f;
+        pot_quality = 1.0f;
     }
 
 
@@ -94,6 +112,16 @@ public class GM : MonoBehaviour
         yield return switchSceneWithFade(nameOfScene, fadeTime);
     }
 
+    // switch to home scene with fade-in and fade-out; co-routine function for async-looking task
+    private IEnumerator switchToHomeWithFade(float fadeTime) {
+        yield return StartCoroutine(fullScreenFade(fadeTime, false)); // process fade-in screen transition; wiat until it finished
+
+        loadScene(sceneName_home, LoadSceneMode.Single); // load target scene
+        initPotValues(); // initialize the pottery-making properties
+
+        yield return StartCoroutine(fullScreenFade(fadeTime, true)); // process fade-out screen transition; wiat until it finished
+    }
+
 
     // start smooth-transition of scene with screen fade
     public void transScene(string nameOfScene, float fadeTime=1.0f)
@@ -102,4 +130,8 @@ public class GM : MonoBehaviour
     // start smooth-transition of scene with screen fade and LoadingScreen
     public void transSceneWithLoading(string nameOfScene, string loadingText, float fadeTime=1.0f)
     { StartCoroutine(switchSceneWithLoading(nameOfScene, fadeTime, loadingText)); }
+
+    // start smooth-transition to home scene with screen fade
+    public void transToHome(float fadeTime=1.0f)
+    { StartCoroutine(switchToHomeWithFade(fadeTime)); }
 }
